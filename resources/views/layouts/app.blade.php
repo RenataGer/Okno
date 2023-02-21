@@ -16,8 +16,10 @@
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
     <link rel="stylesheet" type="text/css" href="resources/css/app.css">
+
 </head>
 <body>
+    <div id="app">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -29,7 +31,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="/resources/views/about.blade.php">О нас</a>
+                        <a class="nav-link active" aria-current="page" href="{{ route('index') }}">О нас</a>
                         <a class="nav-link" href="#">Каталог</a>
                         <a class="nav-link" href="#">Где нас найти?</a>
                     </div>
