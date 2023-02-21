@@ -24,7 +24,11 @@
         </style>
     </head>
         <body class="antialiased">
-            <div id="carouselExampleCaptions" class="carousel slide">
+            <center>
+                <div class="glav">
+                    <h1>Новинки компании</h1>
+                </div>
+                <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -32,24 +36,33 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+            <img src="/public/img/ok1.png"  width="2000" height="800" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black-50 " style=" " >
+                <h3>Пластиковые окна</h3>
             </div>
             </div>
             <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+            <img src="/public/img/ok2.png"  width="2000" height="800" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black-50">
+                <h3>Не стандартные окна</h3>
             </div>
             </div>
             <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+            <img src="/public/img/ok3.png"  width="2000" height="800" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black-50">
+                <h3>Деревянные окна</h3>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/public/img/ok4.png"  width="2000" height="800" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black-50">
+                <h3>Пластикое двери</h3>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img src="/public/img/ok5.png"  width="2000" height="800" alt="...">
+            <div class="carousel-caption d-none d-md-block text-black-50">
+                <h3>Мансардные окна</h3>
             </div>
             </div>
         </div>
@@ -62,6 +75,21 @@
             <span class="visually-hidden">Next</span>
         </button>
         </div>
+            </center> 
     </body>
+    <section>
+        <div class="container text-center">
+            <div class="row justify-content-md-center">
+                <div class="col-lg-6">
+                    <img src="/public/img/steklo-glav.png" width="120" height="100" alt="">
+                </div>
+                <div class="txt-glav col-lg-6">
+                    <h3>Окно-в светлый мир</h3>
+                </div>
+            </div>
+        </div>
+            
+        
+    </section>
 </html>
 @endsection
