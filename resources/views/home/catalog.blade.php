@@ -25,7 +25,7 @@
                     <h1 class="no-auth">
                         @if (Route::has('login'))
                         <li class="nav-item">
-                            <a class="nav-link filter-link" href="{{ route('login') }}">Авторизоваться</a>
+                            <a class="nav-link filter-link" href="{{ route('login') }}">Пожалуйста авторизируйтесь</a>
                         </li>
                     @endif
                     </h1>
