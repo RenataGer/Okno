@@ -32,8 +32,9 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="{{ route('index') }}">О нас</a>
-                        <a class="nav-link" href="#">Каталог</a>
-                        <a class="nav-link" href="#">Где нас найти?</a>
+                        <a class="nav-link" href="{{ route('catalog') }}">Каталог</a>
+                        <a class="nav-link" href="{{ route('contact') }}">Где нас найти?</a>
+                        <a class="nav-link" href="{{ route('cart') }}">Карзина</a>
                     </div>
                     </div>
                 </div>
@@ -42,6 +43,7 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
+                        
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
@@ -54,6 +56,7 @@
                                     <a class="nav-link" href="{{ route('register') }}">{{ __('Регистрация') }}</a>
                                 </li>
                             @endif
+                            <li><img src="/public/img/okno.png" alt=""></li>
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -70,6 +73,7 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+                                    <li><img src="/public/img/okno.png" alt=""></li>
                                 </div>
                             </li>
                         @endguest

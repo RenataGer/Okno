@@ -21,6 +21,12 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            .devis{
+                margin:35px;
+            }
+            .glav{
+                margin:35px;
+            }
         </style>
     </head>
         <body class="antialiased">
@@ -77,19 +83,23 @@
         </div>
             </center> 
     </body>
-    <section>
+    <section class="devis">
         <div class="container text-center">
             <div class="row justify-content-md-center">
                 <div class="col-lg-6">
-                    <img src="/public/img/steklo-glav.png" width="120" height="100" alt="">
+                    <img src="/public/img/steklo-glav.png" width="235" height="200" alt="">
                 </div>
                 <div class="txt-glav col-lg-6">
                     <h3>Окно-в светлый мир</h3>
+                    <h4>При установке окон ПВХ, мы используем только немецкие профиля Rehau, окна и двери любых форм, размеров и цветов.
+Окна ПВХ в Минске по низким ценам – это реальность!
+Компания Окна-Сервис (Okno) предоставляет следующие услуги:
+Изготовление и установка пластиковых окон и дверей.
+Установка откосов, подоконников, отливов.
+Замена стеклопакетов.</h4>
                 </div>
             </div>
         </div>
-            
-        
     </section>
 </html>
 @endsection
